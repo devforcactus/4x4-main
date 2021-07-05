@@ -1,0 +1,16 @@
+.main-text {
+    font-size: 36px;
+    position: absolute;
+    bottom: calc((100% - 50px) / 2);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.travolta-gif {
+    position: fixed;
+    left: 100px;
+    bottom: 0;
+    width: 350px;
+    height: 350px;
+}

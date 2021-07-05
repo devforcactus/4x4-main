@@ -1,0 +1,46 @@
+.popups {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    animation: slide 1s;
+}
+
+@keyframes slide {
+    0% {
+        right: -250px;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.popup {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.popup-text {
+    margin-left: 5px;
+    font-family: "Gill Sans", sans-serif;
+    color: white;
+}
+
+.popup-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.success {
+    background-color: rgb(22, 145, 22);
+}
+
+.error {
+    background-color: rgb(185, 27, 27);
+}
